@@ -1,10 +1,12 @@
 inherit python-wheel
 
 NAME="python-incremental"
-VERSION=16.10.1
+VERSION=17.5.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python project versioning library"
 DESCRIPTION="Incremental is a small library that versions your Python projects."
 
 ARCH=noarch
+
+REQUIRES_EXCLUDE_FROM="*/update.py"
